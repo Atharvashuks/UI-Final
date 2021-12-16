@@ -13,14 +13,14 @@ var con = mysql.createConnection({
 let mailTransporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'pulkitu1609@gmail.com',
-        pass: 'rakeshashi'
+        user: 'dheeraj.node@gmail.com',
+        pass: 'Dheeraj_123'
     }
 });
   
 let mailDetails = {
-    from: 'pulkitu1609@gmail.com',
-    to: 'pulkitu71@gmail.com',
+    from: 'dheeraj.node@gmail.com',
+    to: 'dj13042002@gmail.com',
     subject: 'Test mail',
     text: 'Node.js testing mail'
 };
